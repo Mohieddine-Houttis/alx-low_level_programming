@@ -5,8 +5,11 @@
  * @head: pointer to the first element in the linked_list
  *
  * Return: the data inside the elmnts that was deleted,
- * or NULL if the list is empty
+ * or 0 if the list is empty
  */
+
+
+
 int pop_listint(listint_t **head)
 {
 	listint_t *temp;
